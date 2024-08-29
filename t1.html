@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Dropdown Menu</title>
+    <style>
+        /* CSS cơ bản cho menu */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none; /* Ẩn các tùy chọn ban đầu */
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown .dropbtn {
+            cursor: pointer;
+            color: blue;
+            text-decoration: none;
+            padding: 12px 16px;
+            display: inline-block;
+        }
+
+        /* Tùy chọn hiện ra khi nhấn vào link */
+        .dropdown-content.show {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Link "Shop" và danh sách tùy chọn -->
+    <div class="dropdown">
+        <a href="#" id="shopLink" class="dropbtn">Shop</a>
+        <div id="dropdownContent" class="dropdown-content">
+            <a href="#">Lựa chọn 1</a>
+            <a href="#">Lựa chọn 2</a>
+            <a href="#">Lựa chọn 3</a>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript để xử lý sự kiện nhấp chuột
+        document.getElementById("shopLink").onclick = function(event) {
+            event.preventDefault(); // Ngăn chặn hành vi mặc định của link
+            document.getElementById("dropdownContent").classList.toggle("show");
+        };
+
+        // Đóng menu nếu người dùng nhấp ra ngoài nó
+        window.onclick = function(event) {
+            if (!event.target.matches('#shopLink')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+<div class="slides-control" style="position: relative; height: 100%; width: 4776px; left: -1592px;"><ul class="slides-container" style="margin: 0px; padding: 0px; list-style: none; position: relative; height: 100%;">
+    <li class="text-center" style="display: none; left: 1592px; position: absolute; overflow: hidden; height: 100%; width: 1592px; top: 0px; z-index: 0; opacity: 1;">
+        <img src="images/nền.jpg" alt="" style="backface-visibility: hidden; position: absolute; left: 0px; top: -84px; z-index: -1; max-width: none; height: 1592px; width: 1592px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="m-b-20"><strong>Welcome To <br> HusGarden</strong></h1>
+                    <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p>
+                    <p><a class="btn hvr-hover" href="#">Shop New</a></p>
+                </div>
+            </div>
+        </div>
+    <div class="overlay-background"></div></li>
+    <li class="text-center" style="display: block; left: 1592px; position: absolute; overflow: hidden; height: 100%; width: 1592px; top: 0px; z-index: 2; opacity: 1;">
+        <img src="images/nền 2.jpg" alt="" style="backface-visibility: hidden; position: absolute; left: 0px; top: -84px; z-index: -1; max-width: none; height: 1592px; width: 1592px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="m-b-20"><strong>Welcome To <br> HusGarden</strong></h1>
+                    <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p>
+                    <p><a class="btn hvr-hover" href="#">Shop New</a></p>
+                </div>
+            </div>
+        </div>
+    <div class="overlay-background"></div></li>
+    <li class="text-center" style="display: none; left: 1592px; position: absolute; overflow: hidden; height: 100%; width: 1592px; top: 0px; z-index: 0; opacity: 1;">
+        <img src="images/banner-03.jpg" alt="" style="backface-visibility: hidden; position: absolute; left: -569.675px; top: 0px; z-index: -1; max-width: none; height: 1424px; width: 2731.35px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="m-b-20"><strong>Welcome To <br> HusGarden</strong></h1>
+                    <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p>
+                    <p><a class="btn hvr-hover" href="#">Shop New</a></p>
+                </div>
+            </div>
+        </div>
+    <div class="overlay-background"></div></li>
+</ul></div>
+
+
+
+
+
+
+
+<img src="images/img-pro-01.jpg" class="img-fluid     splide__slide" alt="Image">
+<div class="why-text">
+    <h4>Cà Rốt</h4>
+    <h5> $4.79</h5>
+</div>
+<img src="images/img-pro-02.jpg" class="img-fluid    splide__slide" alt="Image">
+
+</div>
+<div class="why-text">
+<h4>Cà chua</h4>
+<h5> $4.79</h5>
+</div>
+</div>
+</div>
+<div class="item splide    itemsplide">
+<div class="products-single fix    splide__track">
+<div class="box-img-hover   splide__list">
+<img src="images/6.jpg" class="img-fluid  splide__slide" alt="Image">
+
+</div>
+<div class="why-text">
+<h4>Cây Vạn Lộc Đỏ</h4>
+<h5> $3.79</h5>
+</div>
+</div>
+</div>
+<div class="item   splide    itemsplide">
+<div class="products-single fix   splide__track">
+<div class="box-img-hover    splide__list">
+<img src="images/img-pro-04.jpg" class="img-fluid  splide__slide" alt="Image">
+
+</div>
+<div class="why-text">
+<h4> Đu Đủ </h4>
+<h5> $4.79</h5>
+</div>
+</div>
+</div>
+<div class="item   splide    itemsplide">
+<div class="products-single fix  splide__track">
+<div class="box-img-hover   splide__list">
+<img src="images/14.jpg" class="img-fluid  splide__slide" alt="Image">
+
+</div>
+<div class="why-text">
+<h4>Cây Trầu Bà </h4>
+<h5> $3.79</h5>
+</div>
+</div>
+</div>
+<div class="item   splide    itemsplide">
+<div class="products-single fix   splide__track">
+<div class="box-img-hover   splide__list">
+<img src="images/instagram-img-08.jpg" class="img-fluid  splide__slide" alt="Image">
+
+</div>
+<div class="why-text">
+<h4>Dâu Tây</h4>
+<h5> $5.79</h5>
+</div>
+</div>
+</div>
+<div class="item splide    itemsplide">
+<div class="products-single fix    splide__track">
+<div class="box-img-hover    splide__list">
+<img src="images/7.jpg" class="img-fluid  splide__slide" alt="Image">
+</div>
+<div class="why-text">
+<h4>Lưỡi Hổ Bạc</h4>
+<h5> $3.79</h5>
+</div>
+</div>
+</div>
+<div class="item   splide     itemsplide">
+<div class="products-single fix splide__track">
+<div class="box-img-hover   splide__list">
+<img src="images/9.jpg" class="img-fluid  splide__slide" alt="Image">
+
+</div>
+<div class="why-text">
+<h4>Terrarium</h4>
+<h5> $2.79</h5>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Start My Account  -->
+  <div class="my-account-box-main">
+    <div class="container">
+        <div class="my-account-page">
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <div class="account-box">
+                        <div class="service-box">
+                            <div class="service-icon">
+                                <a href="#"> <i class="fa fa-gift"></i> </a>
+                            </div>
+                            <div class="service-desc">
+                                <h4>Your Orders</h4>
+                                <p>Track, return, or buy things again</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="account-box">
+                        <div class="service-box">
+                            <div class="service-icon">
+                                <a href="#"><i class="fa fa-lock"></i> </a>
+                            </div>
+                            <div class="service-desc">
+                                <h4>Login &amp; security</h4>
+                                <p>Edit login, name, and mobile number</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="account-box">
+                        <div class="service-box">
+                            <div class="service-icon">
+                                <a href="#"> <i class="fa fa-location-arrow"></i> </a>
+                            </div>
+                            <div class="service-desc">
+                                <h4>Your Addresses</h4>
+                                <p>Edit addresses for orders and gifts</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="account-box">
+                        <div class="service-box">
+                            <div class="service-icon">
+                                <a href="#"> <i class="fa fa-credit-card"></i> </a>
+                            </div>
+                            <div class="service-desc">
+                                <h4>Payment options</h4>
+                                <p>Edit or add payment methods</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="account-box">
+                        <div class="service-box">
+                            <div class="service-icon">
+                                <a href="#"> <i class="fab fa-paypal"></i> </a>
+                            </div>
+                            <div class="service-desc">
+                                <h4>PayPal</h4>
+                                <p>View benefits and payment settings</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="account-box">
+                        <div class="service-box">
+                            <div class="service-icon">
+                                <a href="#"> <i class="fab fa-amazon"></i> </a>
+                            </div>
+                            <div class="service-desc">
+                                <h4>Amazon Pay balance</h4>
+                                <p>Add money to your balance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-box">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="account-box">
+                            <div class="service-box">
+                                <div class="service-desc">
+                                    <h4>Gold &amp; Diamond Jewellery</h4>
+                                    <ul>
+                                        <li> <a href="#">Apps and more</a> </li>
+                                        <li> <a href="#">Content and devices</a> </li>
+                                        <li> <a href="#">Music settings</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="account-box">
+                            <div class="service-box">
+                                <div class="service-desc">
+                                    <h4>Handloom &amp; Handicraft Store</h4>
+                                    <ul>
+                                        <li> <a href="#">Advertising preferences </a> </li>
+                                        <li> <a href="#">Communication preferences</a> </li>
+                                        <li> <a href="#">SMS alert preferences</a> </li>
+                                        <li> <a href="#">Message center</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="account-box">
+                            <div class="service-box">
+                                <div class="service-desc">
+                                    <h4>The Designer Boutique</h4>
+                                    <ul>
+                                        <li> <a href="#">Amazon Pay</a> </li>
+                                        <li> <a href="#">Bank accounts for refunds</a> </li>
+                                        <li> <a href="#">Coupons</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="account-box">
+                            <div class="service-box">
+                                <div class="service-desc">
+                                    <h4>Gift Boxes, Gift Tags, Greeting Cards</h4>
+                                    <ul>
+                                        <li> <a href="#">Leave delivery feedback</a> </li>
+                                        <li> <a href="#">Lists</a> </li>
+                                        <li> <a href="#">Photo ID proofs</a> </li>
+                                        <li> <a href="#">Profile</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="account-box">
+                            <div class="service-box">
+                                <div class="service-desc">
+                                    <h4>Other accounts</h4>
+                                    <ul>
+                                        <li> <a href="#">Amazon Business registration</a> </li>
+                                        <li> <a href="#">Seller account</a> </li>
+                                        <li> <a href="#">Amazon Web Services</a> </li>
+                                        <li> <a href="#">Login with Amazon</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="account-box">
+                            <div class="service-box">
+                                <div class="service-desc">
+                                    <h4>Shopping programs and rentals</h4>
+                                    <ul>
+                                        <li> <a href="#">Subscribe &amp; Save</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

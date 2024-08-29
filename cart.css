@@ -1,0 +1,327 @@
+.all-title-box {
+    background: url(../images/all-bg-title.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+    padding: 70px 0px;
+    position: relative;
+}
+
+.all-title-box::before {
+    background: rgba(0, 0, 0, 0.6);
+    content: "";
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.container10 {
+    height: 53px;
+}
+
+.row10 {
+    display: flex;
+align-items: center;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.c10{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.all-title-box h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    float: left;
+    padding: 10px 0px;
+}
+
+.all-title-box .breadcrumb {
+    background: #b0b435;
+    margin: 0px;
+    display: inline-block;
+    border-radius: 0px;
+    width: 158px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline-start: 0;
+    
+}
+
+.all-title-box .breadcrumb li {
+    display: inline-block;
+    color: #000000;
+    font-size: 16px;
+}
+.all-title-box .breadcrumb li a {
+    color: white;
+    font-size: 16px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.all-title-box .breadcrumb li {
+    display: inline-block;
+    color: #000000;
+    font-size: 16px;
+    list-style-type: none;
+}
+.all-title-box .breadcrumb-item + .breadcrumb-item::before {
+    color: #000000;
+}
+.all-title-box {
+    background: url(../images/all-bg-title.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+    padding: 70px 0px;
+    position: relative;
+}
+.breadcrumb-item:hover {
+    color: white; /* Màu chữ khi hover */
+}
+.breadcrumb-itemactive :hover{
+    color: white;
+}
+
+.cart-box-main {
+    padding: 70px 0px;
+    height: 1116px;
+}
+.container15 {
+    max-width: 1140px;
+    height: 927px;
+}
+.row15 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.c15 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.table-maintable-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    height: 420px;
+}
+
+.table15{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+        background-color: transparent;
+        height: 405px;
+}
+.table-maintable-responsive table thead {
+    background: #b0b435;
+    color: #ffffff;
+    height: 58px;
+}
+.table-maintable-responsive table thead tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+    height: 58px;
+}
+
+.table-maintable-responsive .table thead th {
+    font-size: 18px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+    height: 346px;
+}
+.td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+.table-maintable-responsive table td.thumbnail-img {
+    width: 120px;
+}
+.table15  tbody tr {
+    width: 1110px;
+    height: 116px;
+}
+.thumbnail-img img {
+    width: 96px;
+    height: 91px;
+}
+.name-pr a {
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.rowmy-15{
+margin-bottom: 3rem !important;
+margin-top: 3rem !important;
+height: 50px;
+display: flex;
+justify-content:space-between ;
+}
+.c16{
+    width: 570px;
+    height: 50px;
+}
+.coupon-box{
+    width: 540px;
+    height: 50px;
+}
+.input-groupinput-group-sm15 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 540px;
+    height: 50px;
+    justify-content: center;
+
+}
+
+.coupon-box .input-groupinput-group-sm15  .form-control {
+    min-height: 50px;
+    border-radius: 0px;
+    font-weight: 400;
+    border: 1px solid #e8e8e8;
+    box-shadow: none !important;
+}
+.input-group-append {
+    margin-left: -1px;
+    height: 50px;
+}
+.input-group-append button {
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.update-box input[type="submit"] {
+    background: #000000;
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    height: 50px;
+    line-height: 40px;
+    margin-right: 15px;
+    padding: 0 20px;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+    width: inherit;
+}
+.update-box{
+display: flex;
+    flex-direction: row-reverse;
+}
+.rowmy-16{
+    margin-bottom: 3rem !important;
+margin-top: 3rem !important;
+height: 360px;
+display: flex;
+}
+.c17{
+    width: 760px;
+    height: 313px;
+
+}
+.c18{
+    width: 380px;
+    height: 313px;
+}
+.order-box{
+    height: 297px;
+    width: 397px;
+}
+.order-box h3 {
+    font-size: 16px;
+    color: #222222;
+    font-weight: 700;
+}
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    width: 350px;
+    height: 35px;
+    justify-content: space-between;
+}
+
+.order-box .ml-autofont-weight-bold {
+    font-size: 18px;
+    width: 50px;
+    height: 35px;
+    padding-bottom: 3px;
+}
+.gr-total h5 {
+    font-weight: 700;
+    color: #b0b435;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 35px !important;
+}
+
+.ml-autobtnhvr-hover{
+  overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    background: #b0b435;
+    transition-property: color;
+    transition-duration: 0.3s;
+    border-radius: 0;
+    box-shadow: none;
+    text-decoration: none;
+    ;
+
+}
+.col-12d-flexshopping-box a {
+    font-size: 18px;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+  
+}
+.col-12d-flexshopping-box{
+    height: 297px;
+}

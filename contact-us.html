@@ -10,10 +10,11 @@
 
 
     <title>HusGarden</title>
+    <link rel="stylesheet" href="./contact-us.css">
     <link rel="stylesheet" href="./index.css">
-    <link href="
-    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
-    " rel="stylesheet">
+    <link rel="stylesheet" href="./shop-detail.css">
+    <link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css " rel="stylesheet">
+   
 
 </head>
 
@@ -30,7 +31,7 @@
                         </select>
                     </div>
                     <div class="right-phone-box">
-                        <p>Call US : <a href="#"> +84 335677868</a></p>
+                        <p>Call US : <a href="#"> +84 582158476</a></p>
                     </div>
                     <div class="our-link">
                         <ul>
@@ -120,263 +121,86 @@
 
 
 
-    <!-- Start Slider -->
-    <div id="slides-shop" class="cover-slides">
-        <div class="slides-control">
-            <ul class="slides-container">
-                <li class="text-center">
-                    <img src="images/nền.jpg" alt="">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h1 class="m-b-20"><strong>Welcome To <br> HusGarden</strong></h1>
-                                <p class="m-b-40">See how your users experience your website in realtime or view <br>
-                                    trends to see any changes in performance over time.</p>
-                                <p><a class="btn hvr-hover" href="#">Shop New</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="text-center">
-                    <img src="./images/nền 2.jpg" alt="">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h1 class="m-b-20"><strong>Welcome To <br> HusGarden</strong></h1>
-                                <p class="m-b-40">See how your users experience your website in realtime or view <br>
-                                    trends to see any changes in performance over time.</p>
-                                <p><a class="btn hvr-hover" href="#">Shop New</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="text-center">
-                    <img src="images/banner-03.jpg" alt="">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h1 class="m-b-20"><strong>Welcome To <br> HusGarden</strong></h1>
-                                <p class="m-b-40">See how your users experience your website in realtime or view <br>
-                                    trends to see any changes in performance over time.</p>
-                                <p><a class="btn hvr-hover" href="#">Shop New</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-
-    </div>
-    <!-- End Slider -->
-
-    <!-- Start Categories  -->
-    <div class="categories-shop">
-        <div class="container1">
-            <div class="row1">
-                <div class="c1">
-                    <div class="shop-cat-box">
-                        <img class="img-fluid" src="images/10.jpg" alt="" />
-                        <a class="btnhvr-hover" href="#">Cây Xương Rồng</a>
-                    </div>
-                </div>
-                <div class="c1">
-                    <div class="shop-cat-box">
-                        <img class="img-fluid" src="images/categories_img_02.jpg" alt="" />
-                        <a class="btnhvr-hover" href="#">Rau Củ</a>
-                    </div>
-                </div>
-                <div class="c1">
-                    <div class="shop-cat-box">
-                        <img class="img-fluid" src="images/9.jpg" alt="" />
-                        <a class="btnhvr-hover" href="#">Terrarium</a>
-                    </div>
+    <!-- Start All Title Box -->
+    <div class="all-title-box">
+        <div class="container10">
+            <div class="row10">
+                <div class="c10">
+                    <h2>CONTACT US</h2>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Shop  </a></li>
+                        <li class="breadcrumb-itemactive">/   CONTACT US</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Categories -->
-    <div class="box-add-products">
-        <div class="container2">
-            <div class="row2">
-                <div class="c2">
-                    <div class="offer-box-products">
-                        <img class="img-fluid" src="images/sale 1.jpg" alt="" />
+    <!-- End All Title Box -->
+
+
+    <div class="contact-box-main">
+        <div class="containercontact">
+            <div class="contactformright">
+                <h2>GET IN TOUCH</h2>
+                <p></p>
+                <form id="contactForm">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="subject" name="name" placeholder="Subject" required data-error="Please enter your Subject">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea class="form-control" id="message" placeholder="Your Message" rows="4" data-error="Write your message" required></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="submitmess">
+                                <button class="submit123" id="submit" type="submit">Send Message</button>
+                            
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="c2">
-                    <div class="offer-box-products">
-                        <img class="img-fluid" src="images/sale 2.jpg" alt="" />
-                    </div>
-                </div>
+                </form>
+            </div>
+            <div class="contact-info-left">
+                <h2>CONTACT INFO</h2>
+                <p> </p>
+                <ul>
+                    <li>
+                        <p><i class="fas fa-map-marker-alt"></i>Address: ngõ 184,Hoa Bằng, Cầu Giấy, Hà Nội </p>
+                    </li>
+                    <li>
+                        <p><i class="fas fa-phone-square"></i>Phone: <a>+84 582158476</a></p>
+                    </li>
+                    <li>
+                        <p><i class="fas fa-envelope"></i>Email: <a >tiennguyen151003@gmail.com</a></p>
+                    </li>
+                </ul>
             </div>
         </div>
+          
     </div>
-
-
-    <!-- Start Products  -->
-    <div class="products-box">
-        <div class="container3">
-            <div class="row3">
-                <div class="c3">
-                    <div class="title-alltext-center">
-                        <h1>Fruits , Vegetables & Strees</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row4">
-                <div class="col-lg-12">
-                    <div class="special-menutext-center">
-                        <div class="button-groupfilter-button-group">
-                            <button class="active" class="m1 btn_filter" id="m2" data-filter="*">All</button>
-                            <button data-filter=".top-featured" class="m1" id="m2">Top featured</button>
-                            <button data-filter=".best-seller" class="m1s" id="m2">Best seller</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="rowspecial-list">
-                <div class="c5">
-                    <div class="products-singlefix">
-                        <div class="box-img-hover">
-                            <div class="type-lb">
-                                <p class="sale">Sale</p>
-                            </div>
-                            <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-
-                                <a class="cart" href="#">Add to Cart</a>
-                            </div>
-                        </div>
-                        <div class="why-text">
-                            <h4>Cà Rốt</h4>
-                            <h5> $7.79</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="c5">
-                    <div class="products-singlefix">
-                        <div class="box-img-hover">
-                            <div class="type-lb">
-                                <p class="new">New</p>
-                            </div>
-                            <img src="images/14.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-
-                                <a class="cart" href="#">Add to Cart</a>
-                            </div>
-                        </div>
-                        <div class="why-text">
-                            <h4>Cây Trầu Bà</h4>
-                            <h5> $9.79</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="c5">
-                    <div class="products-singlefix">
-                        <div class="box-img-hover">
-                            <div class="type-lb">
-                                <p class="sale">Sale</p>
-                            </div>
-                            <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-
-                                <a class="cart" href="#">Add to Cart</a>
-                            </div>
-                        </div>
-                        <div class="why-text">
-                            <h4>Nho</h4>
-                            <h5> $10.79</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="c5">
-                    <div class="products-singlefix">
-                        <div class="box-img-hover">
-                            <div class="type-lb">
-                                <p class="sale">Sale</p>
-                            </div>
-                            <img src="images/7.jpg" class="img-fluid" alt="Image">
-                            <div class="mask-icon">
-
-                                <a class="cart" href="#">Add to Cart</a>
-                            </div>
-                        </div>
-                        <div class="why-text">
-                            <h4>Cây Lưỡi Hổ</h4>
-                            <h5> $15.79</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Start Blog  -->
-    <div class="latest-blog">
-        <div class="container4">
-            <div class="row5">
-                <div class="c6">
-                    <div class="title-alltext-center1">
-                        <h1>latest blog</h1>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div class="row6">
-                <div class="c7">
-                    <div class="blog-box">
-                        <div class="blog-img">
-                            <img class="img-fluid" src="images/blog-img.jpg" alt="" />
-                        </div>
-                        <div class="blog-content">
-                            <div class="title-blog">
-                                <h3>Bắp Cải</h3>
-                                <p>Tươi sạch, tốt cho sức khỏe</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="c7">
-                    <div class="blog-box">
-                        <div class="blog-img">
-                            <img class="img-fluid" src="images/15.jpg" alt="" />
-                        </div>
-                        <div class="blog-content">
-                            <div class="title-blog">
-                                <h3>Terrarium</h3>
-                                <p>Một hệ sinh thái kín có khả năng tự cấp ẩm</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="c7">
-                    <div class="blog-box">
-                        <div class="blog-img">
-                            <img class="img-fluid" src="images/blog-img-02.jpg" alt="" />
-                        </div>
-                        <div class="blog-content">
-                            <div class="title-blog">
-                                <h3>Củ Quả</h3>
-                                <p>Các loại củ được nhập từ tận vườn của các bác nông dân</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- End Cart -->
 
 
     <!-- Start Instagram Feed  -->
     <div class="instagram-box">
-        <section class="splide" aria-label="Splide Basic HTML Example">
+        <section class="splide tienSplide" aria-label="Splide Basic HTML Example">
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
@@ -391,7 +215,7 @@
                     <li class="splide__slide">
                         <img src="images/instagram-img-04.jpg" alt="" />
                     </li>
-                    <li class="\">
+                    <li class="splide__slide">
                         <img src="images/instagram-img-05.jpg" alt="" />
                     </li>
                     <li class="splide__slide">
@@ -590,24 +414,13 @@
 
     </div>
 
+
+ <script src="
+ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+ "></script>
+    <script src="./shop-detail.js"></script>
     <script src="./index.js"></script>
-    <script src="
-https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
-"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var splide = new Splide('.splide', {
-                type: 'loop',
-                perPage: 3,
-                autoplay: true,
-            });
-
-            splide.mount();
-        });
-    </script>
+    
 </body>
-
-
-
-
 </html>
+

@@ -168,20 +168,9 @@ align-items: center;
 }
 
 
-.btnhvr-hover20::after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+.btnhvr-hover20:hover {
     background: #000000;
-    border-radius: 100%;
-    transform: scale(0);
-    transition-property: transform;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-out;
+  
 }
 
 .rowmy-20{

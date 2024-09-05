@@ -1,0 +1,62 @@
+.products-box {
+    height: 1520px;
+    padding: 70px;
+    width: 1110px;
+    display: flex;
+    flex-direction: column;
+}
+.ourgallery {
+    text-align: center;
+}
+.thanhhang {
+   display: flex;
+    width: 1110px;
+    height: 53px;
+    padding-bottom: 40px;
+   justify-content: center;
+   align-items: center;
+
+}
+.thanhcon{
+    width: 450px;
+    height: 43px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.thanhcon button{
+    background-color: #b0b435;
+    height: 42px;
+    font-size: 15px;
+    color: white;
+    border: 0;
+    width: 80px;
+}
+
+.thanhcon button:hover{
+    background-color: black;
+    color: white;
+}
+.thanhcon button:active{
+    background-color: black;
+    color: white;
+}
+
+
+.sanpham1{
+    width: 1110px;
+    height: 280px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sanpham1 img{
+    width: 280px;
+    height: 255px;
+}
+
+.hidden {
+    display: none;
+}
